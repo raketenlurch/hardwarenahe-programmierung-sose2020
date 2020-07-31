@@ -6,7 +6,7 @@ int quersumme(int a);
 
 int main() {
   int input = eingabe();
-  int ergebnis = quersumme(ergebnis);
+  int ergebnis = quersumme(input);
 
   printf("Die Quersumme von %i ist %i.\n", input, ergebnis);
   return 0;
