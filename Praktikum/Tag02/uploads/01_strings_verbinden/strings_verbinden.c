@@ -12,10 +12,10 @@ void strings_verbinden(char *zusammen, char *string1, char *string2) {
   }
 
   // Insert the second string in the new string
-  i = 0;
-  while (string2[i] != '\0') {
-    zusammen[j] = string2[i];
-    i++;
+  int k = 0;
+  while (string2[k] != '\0') {
+    zusammen[j] = string2[k];
+    k++;
     j++;
   }
 
