@@ -18,6 +18,8 @@ void strings_verbinden(char *zusammen, char *string1, char *string2) {
     pos_zusammen++;
   }
 
+  zusammen[pos_zusammen] = '\0';
+
   // Print concateneted String
   printf("Der zusammengesetzte String lautet: %s\n", zusammen);
 }
